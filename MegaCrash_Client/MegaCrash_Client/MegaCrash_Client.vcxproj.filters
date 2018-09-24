@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{330601c6-3753-444e-973b-fbe34db4d063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{3680d130-f667-4d01-9b07-d33259f87969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{a1407303-0b67-4c3d-af9a-06235649d09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{9cf978d3-2bdb-445f-b8d6-41180e99947f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0d373515-6b77-4b2e-b9d1-1e7f148a0fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{d0db1244-e57d-4127-bb5e-bed1e84188de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{33f8c70b-6482-437e-90b2-eade99c9113b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{55b1bef4-7337-467c-8ab7-d4013017b24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\hlsl">
+      <UniqueIdentifier>{ea293eb5-c348-4644-8cd4-6c51aac3553b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{687825e6-3abb-496e-a1a0-feef5c815fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch\UserDefined">
+      <UniqueIdentifier>{e9b46979-82ff-4665-af66-051ff5d20d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch\External">
+      <UniqueIdentifier>{de6a0539-c99f-4475-b8b1-4bcec8b274b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch\External\FBXExporter">
+      <UniqueIdentifier>{ad1bb61a-18c1-4f76-91de-a32c4c21512e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{f16f261b-24cd-40a8-9868-10fffecb58bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{cc89f6e7-106e-475c-b9ba-b2ef1ea80814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{ae98c4b2-e104-4128-a1c0-fdcdc92faaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SoundMgr">
+      <UniqueIdentifier>{0714346f-56cb-41d5-a5f1-d687d57b2c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\D3DBufMgr">
+      <UniqueIdentifier>{fe458da7-551d-4ac7-9372-559c4166780c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ResMgr">
+      <UniqueIdentifier>{aa774404-0edd-4f07-afb3-ccdf69081196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{804be333-4e41-48a7-9139-7a5a5f1714ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{0cbc0a75-bd36-4bff-b8a6-94e48fe82365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{e0cefedf-69b7-4225-8fd4-aceafebc25d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjectMgr">
+      <UniqueIdentifier>{38a76638-4152-495b-b10e-a550197b08f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Helper">
+      <UniqueIdentifier>{64afd5f2-d480-4117-bc90-903b82d36915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShadowMap">
+      <UniqueIdentifier>{20400737-71b3-42f9-9839-42dd790f9f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Main">
+      <UniqueIdentifier>{30889647-9f76-47c4-8780-fbf382012a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Logo">
+      <UniqueIdentifier>{07d4a85e-3054-4743-a00c-8d2a207a44c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Title">
+      <UniqueIdentifier>{14e94ff4-9d01-4de0-8ee7-03e66f3e831f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Lobby">
+      <UniqueIdentifier>{f044413b-85d6-4e67-8245-d5759b8f6dda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{e19969de-470c-45a7-b73d-2f7cd5977c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ParticleMgr">
+      <UniqueIdentifier>{05baacf4-3c29-4195-8abf-0e2d7902dc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{2451eaa3-859d-4ce4-ae2a-20da1c7db090}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Font">
+      <UniqueIdentifier>{e465f114-2787-405a-b041-6cbb57ec27b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MegaCrash_Client.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MegaCrash_Client.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pch\stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Player\Player.cpp">
+      <Filter>Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timer\Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch\External\DDSTextureLoader12.cpp">
+      <Filter>pch\External</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch\External\FBXExporter.cpp">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch\External\FBXUtilities.cpp">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Framework\Framework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\AnimationControler.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Client\Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\SoundMgr\SoundMgr.cpp">
+      <Filter>Manager\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\D3DBufMgr\D3DBufMgr.cpp">
+      <Filter>Manager\D3DBufMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\ResourseMgr\ResMgr.cpp">
+      <Filter>Manager\ResMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light\Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material\Material.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\ObjectMgr\ObjectMgr.cpp">
+      <Filter>Manager\ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader\Helper\ShaderHelper.cpp">
+      <Filter>Shader\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShadowMap\ShadowMap.cpp">
+      <Filter>ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation\AnimationState.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Lobby\LobbyScene.cpp">
+      <Filter>Scene\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Logo\LogoScene.cpp">
+      <Filter>Scene\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Main\MainScene.cpp">
+      <Filter>Scene\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\Title\TitleScene.cpp">
+      <Filter>Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Manager\ParticleMgr\ParticleMgr.cpp">
+      <Filter>Manager\ParticleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Particle\Particle.cpp">
+      <Filter>Object\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object\Font\Font.cpp">
+      <Filter>Object\Font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\targetver.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Player\Player.h">
+      <Filter>Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Timer\Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\d3dx12.h">
+      <Filter>pch\External</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\DDSTextureLoader12.h">
+      <Filter>pch\External</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\UserDefined\inlineFuncs.h">
+      <Filter>pch\UserDefined</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\UserDefined\SystemDefine.h">
+      <Filter>pch\UserDefined</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\FBXExporter.h">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\UserDefined\XMathHelper.h">
+      <Filter>pch\UserDefined</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\FBXMaterial.h">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\FBXUtilities.h">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pch\External\FBXVertex.h">
+      <Filter>pch\External\FBXExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framework\Framework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation\AnimationControler.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Client\Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Client\Tmsg.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh\Vertex.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\SoundMgr\SoundMgr.h">
+      <Filter>Manager\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\D3DBufMgr\D3DBufMgr.h">
+      <Filter>Manager\D3DBufMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\ResourseMgr\ResMgr.h">
+      <Filter>Manager\ResMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\ResourceStructure.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\ResourceEnum.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light\Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Material\Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\ObjectMgr\ObjectMgr.h">
+      <Filter>Manager\ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader\Helper\ShaderHelper.h">
+      <Filter>Shader\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShadowMap\ShadowMap.h">
+      <Filter>ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation\AnimationState.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Lobby\LobbyScene.h">
+      <Filter>Scene\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Logo\LogoScene.h">
+      <Filter>Scene\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Main\MainScene.h">
+      <Filter>Scene\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Title\TitleScene.h">
+      <Filter>Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Manager\ParticleMgr\ParticleMgr.h">
+      <Filter>Manager\ParticleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Particle\Particle.h">
+      <Filter>Object\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Font\Font.h">
+      <Filter>Object\Font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="src\Shader\hlsl\Light.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Shadow.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Common.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\ShaderMathHelper.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\TextureToFullScreen.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Billboard.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Cube.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Model.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\PlayerUI.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Rader.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\SkinnedAnimationModel.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\SkyBox.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Stage.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\HUDUI.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\DeferredLighting.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Font.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\LobbyRoomSlot.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\LobbyWindow.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Logo.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Button.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Title.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\ParticleBillboard.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\Gameover.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="src\Shader\hlsl\DeathUI.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Shader\hlsl\Crosshair.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </None>
+    <None Include="src\Shader\hlsl\SkillIcon.hlsl">
+      <Filter>Shader\hlsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>

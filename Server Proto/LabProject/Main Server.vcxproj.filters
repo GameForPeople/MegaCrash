@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{86a2f985-2f11-4c31-94cc-2d722a0a56d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{8ffba8bf-fc42-4872-9b72-a97973f0e2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{043e53ca-7273-4185-98d3-f06be1b76b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{2dbde58d-e7ea-40d4-8dc4-14a7feaa2997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreCompiled">
+      <UniqueIdentifier>{a5f818ab-bb68-4a59-8c2b-84362223051d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{b1d8ac0b-129b-4d67-9d42-3c567d0543a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mesh">
+      <UniqueIdentifier>{4760815b-8079-4202-846e-508ca267a2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PhysX">
+      <UniqueIdentifier>{09b7c044-91d0-43b1-acd3-c3140d5b0291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext">
+      <UniqueIdentifier>{5b5d7b14-75c8-4300-be53-dea361532c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ext\FBX">
+      <UniqueIdentifier>{c935bdef-f88d-45a4-be71-d7d6bf1e1d23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer\Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Server\MainServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Server\Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysX\Animation.cpp">
+      <Filter>PhysX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh\Mesh.cpp">
+      <Filter>Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Framework\GameFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ext\FBX\FBXExporter.cpp">
+      <Filter>Ext\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ext\FBX\FBXUtilities.cpp">
+      <Filter>Ext\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Precompiled\stdafx.cpp">
+      <Filter>PreCompiled</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Timer\Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Server\Tmsg.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Server\Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Server\MainServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysX\Animation.h">
+      <Filter>PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysX\MeshCooking.h">
+      <Filter>PhysX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh\Mesh.h">
+      <Filter>Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Framework\GameFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ext\XMathHelper.h">
+      <Filter>Ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ext\FBX\FBXExporter.h">
+      <Filter>Ext\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ext\FBX\FBXMaterial.h">
+      <Filter>Ext\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ext\FBX\FBXUtilities.h">
+      <Filter>Ext\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ext\FBX\FBXVertex.h">
+      <Filter>Ext\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Precompiled\stdafx.h">
+      <Filter>PreCompiled</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Main Server.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
